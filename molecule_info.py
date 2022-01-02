@@ -4,7 +4,7 @@ from math import *
 PLS GIVE THE FULL PATH OF THE .xyz FILE YOU WISH TO RUN AS STRING BELOW. DO NOT CHANGE ANYTHING ELSE
 """
 
-with open(r"D:\AkshatOP\CC-1\energy\benzene.xyz","r") as f:
+with open(r"benzene.xyz","r") as f:
     n=int(f.readline())
     f.readline()
     lines=f.readlines()
